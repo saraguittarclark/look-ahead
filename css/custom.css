@@ -1,0 +1,50 @@
+.custom-button {
+width: 13.5rem;
+height: 2.625rem;
+flex-shrink: 0;
+border-radius: 0.625rem;
+background: #183552;
+}
+
+#intro {
+width: 50.65331rem;
+height: 22.9375rem;
+flex-shrink: 0;
+}
+
+#photo {
+width: 18.11688rem;
+height: 17.625rem;
+flex-shrink: 0;
+border-radius: 0.625rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.blue {
+background-color: #2E5871;
+color: #FFF;
+/* font-family: Istok Web; */
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+height: auto;
+}
+
+.white {
+background-color: #FFFFFF;
+color: #183552;
+font-family: Istok Web;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.light-blue {
+width: 20.875rem;
+height: 18.4375rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+background: rgba(46, 88, 113, 0.14);
+}

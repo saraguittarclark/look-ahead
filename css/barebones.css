@@ -471,3 +471,9 @@ there.
 /* Larger than tablet */
 @media (min-width: 1200px) {}
 
+.main {
+  background-image: url('/images/linen.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
