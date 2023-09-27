@@ -13,11 +13,25 @@ flex-shrink: 0;
 }
 
 #photo {
-width: 18.11688rem;
-height: 17.625rem;
+width: auto;
+height: auto;
+padding-left: 5rem;
+padding-bottom: 10rem;
 flex-shrink: 0;
 border-radius: 0.625rem;
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+#about {
+background-image: url('../images/Background.png');
+/* background-color: lightgray 50% cover no-repeat; */
+/* width: 80%; */
+height: auto;
+flex-shrink: 0;
+}
+
+a {
+padding-bottom: 10rem;
 }
 
 .blue {
@@ -34,7 +48,7 @@ height: auto;
 .white {
 background-color: #FFFFFF;
 color: #183552;
-font-family: Istok Web;
+/* font-family: Istok Web; */
 font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
@@ -47,4 +61,15 @@ height: 18.4375rem;
 flex-shrink: 0;
 border-radius: 0.3125rem;
 background: rgba(46, 88, 113, 0.14);
+}
+
+.small-box {
+width: 20.875rem;
+height: 18.4375rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+background: rgba(46, 88, 113, 0.14);  */
+background-image: url('../images/bluebox.png');
+height: auto;
+flex-shrink: 0;
 }
