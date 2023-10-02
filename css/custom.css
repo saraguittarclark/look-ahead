@@ -1,10 +1,12 @@
-.custom-button {
+/* .custom-button {
 width: 13.5rem;
 height: 2.625rem;
 flex-shrink: 0;
 border-radius: 0.625rem;
 background: #183552;
-}
+text-align: center;
+color:#FFF;
+} */
 
 #intro {
 width: 50.65331rem;
@@ -22,12 +24,31 @@ border-radius: 0.625rem;
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 
+#contact {
+padding-top: 3rem;
+text-align: center;
+}
+
+#nav {
+padding-bottom: 3rem;
+text-align: center;
+}
+
+#nav a {
+color: white;
+}
+
 #about {
 background-image: url('../images/Background.png');
 /* background-color: lightgray 50% cover no-repeat; */
 /* width: 80%; */
 height: auto;
 flex-shrink: 0;
+}
+
+#footer {
+background-image: url('../images/footer.png');
+height: auto;
 }
 
 a {
@@ -64,12 +85,18 @@ background: rgba(46, 88, 113, 0.14);
 }
 
 .small-box {
-width: 20.875rem;
-height: 18.4375rem;
-flex-shrink: 0;
+width: auto;
+height: auto;
+/* height: 18.4375rem; */
 border-radius: 0.3125rem;
 background: rgba(46, 88, 113, 0.14);  */
 background-image: url('../images/bluebox.png');
-height: auto;
+padding: 10px;
 flex-shrink: 0;
 }
+
+.u-max-full-width {
+ max-width: 100%;
+box-sizing: border-box; 
+}
+
