@@ -12,6 +12,7 @@ color:#FFF;
 width: 50.65331rem;
 height: 22.9375rem;
 flex-shrink: 0;
+padding-top: 6rem;
 }
 
 #photo {
@@ -22,11 +23,6 @@ padding-bottom: 10rem;
 flex-shrink: 0;
 border-radius: 0.625rem;
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-}
-
-#contact {
-padding-top: 3rem;
-text-align: center;
 }
 
 #nav {
@@ -46,13 +42,17 @@ height: auto;
 flex-shrink: 0;
 }
 
-#footer {
+
+/* #footer {
 background-image: url('../images/footer.png');
-height: auto;
-}
+} */
 
 a {
 padding-bottom: 10rem;
+}
+
+.contact {
+text-align: center;
 }
 
 .blue {
@@ -67,6 +67,7 @@ height: auto;
 }
 
 .white {
+padding-top: 3rem;
 background-color: #FFFFFF;
 color: #183552;
 /* font-family: Istok Web; */
@@ -100,3 +101,10 @@ flex-shrink: 0;
 box-sizing: border-box; 
 }
 
+.portfolio {
+padding-bottom: 6rem;
+}
+
+.hero {
+    padding-top: 6rem;
+}
